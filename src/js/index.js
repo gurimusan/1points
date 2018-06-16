@@ -1,4 +1,4 @@
-import Onepoints from './onepoints';
+import Onepoints from './1points';
 
 document.addEventListener('DOMContentLoaded', (event) => {
   const app = new Onepoints()

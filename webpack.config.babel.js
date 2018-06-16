@@ -6,7 +6,7 @@ const config = [{
 
   output: {
     path: `${__dirname}/public`,
-    filename: 'js/onepoints.js',
+    filename: 'js/1points.js',
   },
 
   module: {
@@ -16,7 +16,7 @@ const config = [{
   },
 
 },{
-  entry: `${__dirname}/src/scss/onepoints.scss`,
+  entry: `${__dirname}/src/scss/1points.scss`,
 
   output: {
     path: `${__dirname}/public`,
@@ -49,7 +49,7 @@ const config = [{
 
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "css/onepoints.css",
+      filename: "css/1points.css",
     }),
   ],
 }]

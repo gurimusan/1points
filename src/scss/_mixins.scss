@@ -8,3 +8,19 @@
     @content;
   }
 }
+
+@mixin onepoint-content {
+  position: relative;
+  padding: 4rem 0;
+  border-bottom: 1px solid #ddd;
+  h1 {
+    color: $orange;
+    text-align: center;
+    font-weight: 200;
+    font-size: 4rem;
+    b {
+      color: $green;
+      font-weight: 200;
+    }
+  }
+}
