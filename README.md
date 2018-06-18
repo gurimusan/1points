@@ -19,10 +19,9 @@ Setup
 Build
 =====
 
-単純にビルドする場合は下記のとおり。
-
     $ yarn run build
 
-ファイルを監視してビルドを自動化する場合は下記のとおり。
+Deploy
+======
 
-    $ yarn run watch
+    $ ./deploy.sh
