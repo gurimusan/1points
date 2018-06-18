@@ -18,6 +18,7 @@
 @import "headline";
 @import "about";
 @import "works";
+@import "recruit";
 @import "company";
 @import "contact";
 
@@ -27,4 +28,7 @@
   margin: 0 auto;
   position: relative;
   @include clearfix;
+  @include max-screen(768px) {
+    width: 100%;
+  }
 }

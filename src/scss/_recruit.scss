@@ -1,16 +1,15 @@
-.company {
+.recruit {
   @include onepoint-content
-
-  .company-info {
+  .recruit-info {
     width: 100%;
     max-width: 100%;
     width: 100%;
     margin-bottom: .5rem;
     border-collapse: collapse;
-    .company-info__label {
+    .recruit-info__label {
       width: 40%;
     }
-    .company-info__content {
+    .recruit-info__content {
       width: 60%;
     }
     th,

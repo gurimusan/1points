@@ -24,12 +24,12 @@
       font-size: $font-size-base;
       line-height: $line-height-base;
       color: $base-color;
-      background-color: #fff;
+      background-color: $white;
       background-clip: padding-box;
       border: 1 solid #ddd;
       border-radius: .25rem;
 
-      @include box-shadow(inset 0 1px 1px rgba(#000, .075));
+      @include box-shadow(inset 0 1px 1px rgba($black, .075));
       @include transition(border-color .15s ease-in-out, box-shadow .15s ease-in-out);
 
       &::-ms-expand {
