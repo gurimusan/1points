@@ -24,7 +24,11 @@ export default class Onepoints {
     });
 
     if (platformIsWindows())  {
-      document.body.style.transform = 'rotate(-0.0000000001deg)';
+      const textElem = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'span', 'b',
+                        'th', 'td', 'label']
+      document.querySelectorAll(textElem.join(',')).forEach((elem) => {
+        elem.style.transform = 'rotate(0.001deg)'
+      })
     }
   }
 
