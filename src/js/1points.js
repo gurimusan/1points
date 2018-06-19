@@ -23,7 +23,7 @@ export default class Onepoints {
       })
     });
 
-    if (browserIsMSIE())  {
+    if (browserIsMSIE() || browserIsMSEdge())  {
       document.body.style.transform = 'rotate(-0.0000000001deg)';
     }
   }

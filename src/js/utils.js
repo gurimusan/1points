@@ -20,5 +20,10 @@ export function elementHeight(element) {
 
 export function browserIsMSIE() {
   const ua = window.navigator.userAgent
-  return -1 !== ua.indexOf('MSIE ') || -1 !== ua.indexOf('trident')
+  return -1 !== ua.indexOf('msie') || -1 !== ua.indexOf('trident')
+}
+
+export function browserIsMSEdge() {
+  const ua = window.navigator.userAgent
+  return -1 !== ua.indexOf('edge')
 }
