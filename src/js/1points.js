@@ -1,4 +1,4 @@
-import { documentScrollTop, elementOffsetTop, elementHeight } from './utils'
+import { documentScrollTop, elementOffsetTop, elementHeight, browserIsMSIE } from './utils'
 
 export default class Onepoints {
   start() {
@@ -22,6 +22,10 @@ export default class Onepoints {
         }
       })
     });
+
+    if (browserIsMSIE())  {
+      document.body.style.transform = 'rotate(-0.0000000001deg)';
+    }
   }
 
   applyContentActivation() {

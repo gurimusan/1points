@@ -17,3 +17,8 @@ export function elementHeight(element) {
   const paddingBottom = parseFloat(styles.paddingBottom)
   return height - borderBottomWidth - borderTopWidth - paddingTop - paddingBottom
 }
+
+export function browserIsMSIE() {
+  const ua = window.navigator.userAgent
+  return -1 !== ua.indexOf('MSIE ') || -1 !== ua.indexOf('trident')
+}
