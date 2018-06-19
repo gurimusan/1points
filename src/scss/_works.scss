@@ -32,5 +32,8 @@
         content: "販売元: ";
       }
     }
+    @include max-screen(768px) {
+      width: 98%;
+    }
   }
 }
