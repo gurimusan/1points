@@ -1,4 +1,4 @@
-import { documentScrollTop, elementOffsetTop, elementHeight, browserIsMSIE } from './utils'
+import { documentScrollTop, elementOffsetTop, elementHeight, platformIsWindows } from './utils'
 
 export default class Onepoints {
   start() {
@@ -23,7 +23,7 @@ export default class Onepoints {
       })
     });
 
-    if (browserIsMSIE() || browserIsMSEdge())  {
+    if (platformIsWindows())  {
       document.body.style.transform = 'rotate(-0.0000000001deg)';
     }
   }
