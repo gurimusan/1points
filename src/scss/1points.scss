@@ -27,6 +27,6 @@
   position: relative;
   @include clearfix;
   @include max-screen(768px) {
-    width: 100%;
+    width: 90%;
   }
 }
