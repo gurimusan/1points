@@ -7,10 +7,9 @@
   right: 0;
   left: 0;
   z-index: 1030;
-  background-color: $white;
-  border-bottom: 1px solid #ddd;
+  background-color: $orange;
   .brand {
-    color: $orange;
+    color: $white;
     display: inline-block;
     padding-left: .5rem;
     padding-right: .5rem;
@@ -39,7 +38,7 @@
       width: 30px;
       height: 1px;
       display: block;
-      background: $orange;
+      background: $white;
       position: absolute;
       left: 50%;
       top: 50%;
@@ -55,7 +54,7 @@
     }
     &.nav-toggle--open {
       .nav-toggle__middle {
-        background: $white;
+        background: $orange;
       }
       .nav-toggle__top {
         transform: rotate(-45deg) translateY(0px);
