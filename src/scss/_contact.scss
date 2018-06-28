@@ -4,12 +4,7 @@
 
   .contact-form {
     label {
-      color: $orange;
-      font-weight: bolder;
-      b {
-        color: $green;
-        font-weight: bolder;
-      }
+      font-weight: $font-weight-bold;
     }
 
     .group  {
@@ -21,6 +16,7 @@
       display: block;
       width: 100%;
       padding: .375rem .75rem;
+      margin-bottom: .5rem;
       font-size: $font-size-base;
       line-height: $line-height-base;
       color: $base-color;
@@ -38,8 +34,26 @@
       }
 
       &::placeholder {
-        color: lighten($base-color, 80%);
+        color: lighten($base-color, 30%);
         opacity: 1;
+      }
+    }
+
+    button {
+      position: relative;
+      display: block;
+      font-size: 1.4rem;
+      width: 30%;
+      margin: 0 auto;
+      padding: .5em 1rem;
+      border: none;
+      text-decoration: none;
+      color: #FFF;
+      background: $orange;
+      border-radius: .25rem;
+      &:hover,
+      &:focus {
+        background: lighten($orange, 10%);
       }
     }
   }
