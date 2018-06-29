@@ -12,7 +12,6 @@
     display: flex;
     width: 100%;
     margin: 0 0 2rem 0;
-    flex-wrap: nowrap;
     @include justify-content(center);
     @include align-items(center);
     img {
@@ -41,7 +40,18 @@
       }
     }
     @include max-screen(768px) {
-      width: 98%;
+      display: block;
+      img {
+        padding-right: 0;
+        border-right: none;
+        margin: 0 auto;
+      }
+      .work__description {
+        text-align: center;
+      }
+      .work__publisher {
+        text-align: center;
+      }
     }
   }
 }
