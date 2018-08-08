@@ -2,7 +2,7 @@
   @include onepoint-content
   background-color: #fffae6;
 
-  .work-container {
+  .work-list {
     display: flex;
     flex-wrap: wrap;
     @include justify-content(space-between);

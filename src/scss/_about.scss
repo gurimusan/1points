@@ -1,4 +1,20 @@
 .about {
   @include onepoint-content
   background-color: #fffae6;
+
+  .about-atmosphere-list {
+    display: flex;
+    flex-wrap: wrap;
+    @include justify-content(space-between);
+    @include align-items(center);
+  }
+
+  .about-atmosphere {
+    margin: 5px;
+    width: 200px;
+
+    @include max-screen(768px) {
+      width: 100%;
+    }
+  }
 }
