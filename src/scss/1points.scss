@@ -1,7 +1,23 @@
 @charset "utf-8";
 
-@import url(https://fonts.googleapis.com/css?family=Viga);
 @import url(https://fonts.googleapis.com/earlyaccess/mplus1p.css);
+
+@font-face {
+  font-family: YuGothicMedium;
+  src: local("Yu Gothic Medium");
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Regular");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Regular");
+  font-weight: 200;
+}
 
 @import "~compass-mixins/lib/compass";
 
