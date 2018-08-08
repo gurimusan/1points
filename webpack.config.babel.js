@@ -34,7 +34,7 @@ const config = {
         ]
       },
       {
-        test: /\.(gif|png|jpg|eot|wof|woff|woff2|ttf|svg)$/,
+        test: /\.(gif|png|jpg|eot|wof|woff|woff2|ttf|svg|ico)$/,
         loader: 'url-loader'
       }
     ],
