@@ -17,6 +17,82 @@
       text-decoration: none;
     }
   }
+  .nav__link__about {
+    display: block;
+    &::before {
+      display: inline-block;
+      content:'';
+      background: url(../img/menu/about_wg.png);
+      width: 104px;
+      height: 24px;
+    }
+    &:hover {
+      &::before {
+        background-position: left bottom;
+      }
+    }
+  }
+  .nav__link__company {
+    display: block;
+    &::before {
+      display: inline-block;
+      content:'';
+      background: url(../img/menu/company_wg.png);
+      width: 152px;
+      height: 24px;
+    }
+    &:hover {
+      &::before {
+        background-position: left bottom;
+      }
+    }
+  }
+  .nav__link__work {
+    display: block;
+    &::before {
+      display: inline-block;
+      content:'';
+      background: url(../img/menu/work_wg.png);
+      width: 110px;
+      height: 24px;
+    }
+    &:hover {
+      &::before {
+        background-position: left bottom;
+      }
+    }
+  }
+  .nav__link__recruit {
+    display: block;
+    &::before {
+      display: inline-block;
+      content:'';
+      background: url(../img/menu/recruit_wg.png);
+      width: 123px;
+      height: 24px;
+    }
+    &:hover {
+      &::before {
+        background-position: left bottom;
+      }
+    }
+  }
+  .nav__link__contact {
+    display: block;
+    &::before {
+      display: inline-block;
+      content:'';
+      background: url(../img/menu/contact_wg.png);
+      width: 141px;
+      height: 24px;
+    }
+    &:hover {
+      &::before {
+        background-position: left bottom;
+      }
+    }
+  }
+
   @include max-screen(768px) {
     display: none;
     .nav__link {
