@@ -117,6 +117,30 @@
         display: block;
       }
     }
+    .nav__link__about {
+      &::before {
+        background: url(../img/menu/about_og.png);
+      }
+    }
+    .nav__link__company {
+      &::before {
+        background: url(../img/menu/company_og.png);
+      }
+    }
+    .nav__link__work {
+      &::before {
+        background: url(../img/menu/work_og.png);
+      }
+    }
+    .nav__link__recruit {
+      &::before {
+        background: url(../img/menu/recruit_og.png);
+      }
+    }
+    .nav__link__contact {
+      &::before {
+        background: url(../img/menu/contact_og.png);
+      }
+    }
   }
-
 }
