@@ -22,7 +22,7 @@ const config = {
           {
             loader: 'css-loader',
             options: {
-              url: true,
+              url: false,
               minimize: true,
               importLoaders: 2,
             },
@@ -32,10 +32,6 @@ const config = {
             options: {}
           }
         ]
-      },
-      {
-        test: /\.(gif|png|jpg|eot|wof|woff|woff2|ttf|svg|ico)$/,
-        loader: 'url-loader'
       }
     ],
   },
