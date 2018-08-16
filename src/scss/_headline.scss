@@ -4,7 +4,7 @@
   background-color: $orange;
   color: $white;
   padding: 6rem 0;
-  height: 100vh;
+  min-height: 100vh;
   opacity: 0;
   @include flex-direction(column);
   @include justify-content(center);
