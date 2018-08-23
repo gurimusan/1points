@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   display: flex;
-  @include align-items(center);
+  @include align-items(flex-end);
   @include justify-content(space-between);
   top: 0;
   right: 0;
