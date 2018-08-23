@@ -1,6 +1,10 @@
 .recruit {
   @include onepoint-content
   background-color: #ffdfb9;
+  .recruit-banner {
+    width: 450px;
+    margin: 0 auto;
+  }
   .recruit-info {
     width: 100%;
     max-width: 100%;
